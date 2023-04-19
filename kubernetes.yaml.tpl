@@ -30,7 +30,7 @@ spec:
     spec:
       containers:
       - name: hello-cloudbuild
-        image: us-central1-docker.pkg.dev/GOOGLE_CLOUD_PROJECT/my-repository/hello-cloudbuild:COMMIT_SHA
+        image: asia-northeast3-docker.pkg.dev/GOOGLE_CLOUD_PROJECT/my-repository/hello-cicd:COMMIT_SHA
         ports:
         - containerPort: 8080
 ---

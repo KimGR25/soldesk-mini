@@ -23,8 +23,8 @@ steps:
   - '-f'
   - 'kubernetes.yaml'
   env:
-  - 'CLOUDSDK_COMPUTE_REGION=us-central1'
-  - 'CLOUDSDK_CONTAINER_CLUSTER=hello-cloudbuild'
+  - 'CLOUDSDK_COMPUTE_REGION=asia-northeast3'
+  - 'CLOUDSDK_CONTAINER_CLUSTER=hello-cicd'
 
 # This step copies the applied manifest to the production branch
 # The COMMIT_SHA variable is automatically
